@@ -1,0 +1,45 @@
+
+.CardStyleFront{
+    width: 150px;
+    height:  150px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.CardStyleBack{
+    width: 150px;
+    height:  150px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.CardSide {
+    position:absolute;
+    transform-origin: 50% 50%;
+    transition: transform linear 0.1s !important;
+    
+}
+
+.CardContainer {
+    position: relative;
+    width: 150px;
+    height:  150px;
+    margin-bottom: 40px;
+    transition: all linear 0.1s !important;
+}
+
+.CardContainer:hover {
+    transform: scale(1.05);
+}
+
+.Hidden {
+    
+    transform: scaleX(0);
+}
+:not(.Hidden ) {
+    transition-delay: 0.1s !important;
+}

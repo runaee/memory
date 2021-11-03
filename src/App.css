@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin; 
+  pointer-events: none;
+  animation-name: fornacecolor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform: scale(98%);
+}
+
+.App-description{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.Logo{
+  display: block;
+}
+
+.Logo:hover{
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+@keyframes fornacecolor {
+    0%   {background-color: black;}
+    12.5%  {background-color: #f8d06b;}
+    25%  {background-color: #f89b22;}
+    37.5%  {background-color: #ea3940;}
+    50%  {background-color: #a12d90;}
+    62.5%  {background-color: #514993;}
+    75%  {background-color: #0083b0;}
+    87.5%  {background-color: #7cc142;}
+    100% {background-color: black;}
+  }
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
